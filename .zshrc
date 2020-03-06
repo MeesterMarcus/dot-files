@@ -1,9 +1,5 @@
 alias dev="cd ~/Development"
 alias projects="cd ~/Development/IdeaProjects"
-alias cust_ui_stifel="kubectl --kubeconfig=/usr/local/bin/dev5/kubeconfig --namespace=stifel port-forward svc/customers 9003:80"
-alias delete_pod_stifel="kubectl --kubeconfig=/usr/local/bin/qa5/kubeconfig --namespace=stifel delete pod"
-alias micros_stifel_dev="kubectl --kubeconfig=/usr/local/bin/dev6/kubeconfig get services --namespace=stifel"
-alias micros_stifel_qa="kubectl --kubeconfig=/usr/local/bin/qa6/kubeconfig get services --namespace=stifel"
 alias zshrc="cat ~/.zshrc"
 
 kproxy() {
