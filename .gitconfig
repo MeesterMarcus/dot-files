@@ -1,9 +1,3 @@
-[filesystem "Oracle Corporation|13|/dev/disk1s1"]
-	timestampResolution = 7000 nanoseconds
-	minRacyThreshold = 0 nanoseconds
-[filesystem "AdoptOpenJDK|1.8.0_222|/dev/disk1s1"]
-	timestampResolution = 1001 milliseconds
-	minRacyThreshold = 0 nanoseconds
 [user]
 	name = meestermarcus
 	email = lorenzanamarcus@gmail.com
