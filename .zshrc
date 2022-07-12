@@ -1,6 +1,7 @@
 alias dev="cd ~/Development"
 alias projects="cd ~/Development/IdeaProjects"
 alias zshrc="cat ~/.zshrc"
+alias my_aliases="cat ~/.zshrc | grep '^alias' --color=never"
 
 kproxy() {
         kubectl proxy kubectl --kubeconfig=/usr/local/bin/$1/kubeconfig proxy --port=$2
