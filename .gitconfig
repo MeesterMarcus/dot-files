@@ -6,8 +6,18 @@
 [alias]
 	l = log --oneline
 	c = commit -m 
+	cn = commit -m --no-verify
 	co = checkout
 	cob = checkout -b
 	undo = reset HEAD~1 --mixed
 	alias = config --get-regexp alias
 	amend = commit -a --amend
+	ignore = update-index --assume-unchanged
+	unignore = update-index --no-assume-unchanged
+	ignored = !git ls-files -v | grep "^[[:lower:]]"
+	mycommits = cherry -v master
+	rename = branch -m
+	update-master = fetch origin master:master
+[pager]
+	branch = false
+	log = false
